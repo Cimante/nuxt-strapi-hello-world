@@ -17,4 +17,15 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Порядок запуска:
+0. Запустить .\mongo.exe
+1. Запустить бэкенд на Strapi из папки /strapi:
+```bash
+$ npm run develop
+```
+2. Запустить фронт на Nuxt из корневой папки:
+```bash
+$ npm run dev
+```
+
+> Будь у меня больше оперативной памяти, я бы использовал Docker, но он не хочет даже запускаться...
