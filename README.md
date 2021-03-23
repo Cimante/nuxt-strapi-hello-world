@@ -3,12 +3,12 @@
 ### Hello-world в среде Nuxt + Strapi + MongoDB
 
 Порядок запуска:
-0. Запустить .\mongo.exe
-1. Запустить бэкенд на Strapi из папки /strapi:
+1. Запустить .\mongo.exe
+2. Запустить бэкенд на Strapi из папки /strapi:
 ```bash
 $ npm run develop
 ```
-2. Запустить фронт на Nuxt из корневой папки:
+3. Запустить фронт на Nuxt из корневой папки:
 ```bash
 $ npm run dev
 ```
